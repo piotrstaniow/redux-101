@@ -1,0 +1,89 @@
+.reveal section img.logo{
+  box-shadow: none;
+  border-color: #222;
+}
+
+.reveal section table{
+   font-size: 32px;
+}
+
+.reveal section li.nobullet{
+   list-style:none;
+}
+
+.reveal section img {
+  margin: 0px 0px;
+  max-height: 500px;
+  border: none;
+  background-color: #222;
+}
+
+.reveal p.small{
+  font-size: 0.7em;
+}
+
+.reveal .credits{
+  font-size: 0.6em;
+}
+
+.reveal pre {
+     width: 100%;
+}
+
+.reveal code.small {
+  font-size: 0.75em;
+}
+
+.reveal .bgImages img{
+     width: 22%;
+     margin: 5px;
+     height: 120px;
+}
+
+.reveal  div.overlay{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 750px;
+    height: 430px;
+    background-color:rgba(34, 34, 34, 0.90);
+    text-align: left;
+    padding: 20px;
+
+}
+.reveal  div.overlay a, .reveal  div.overlay a:hover, .reveal  div.overlay a:visited{
+  color: white;
+  font-size: 38px;
+}
+
+.reveal p.warn{
+ color:darkorange;
+}
+.reveal .red{
+ color:red;
+}
+.reveal .green{
+ color:green;
+}
+
+.no-bullet {
+  list-style-type: none;
+}
+
+.reveal .ml30 {
+  margin-left:30px;
+} 
+
+.reveal .quote{
+    font-size: 40%;
+}
+
+code.small {
+    background: rgba(0, 128, 255, 0.25);
+    padding: 0.1rem;
+}
+
+ul.small {
+  font-size: 2rem;
+}
+
