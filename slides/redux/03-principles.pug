@@ -1,0 +1,13 @@
+extends ../layout.pug 
+
+block vars
+  - var title = 'principles'
+
+block title
+    | Three principles of Redux
+block content
+    p These are the <i>intents</i> of Redux
+    ul
+      li Single Source of Truth
+      li Readonly State
+      li State is updated with Pure Functions (i.e. reducers)

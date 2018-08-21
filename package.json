@@ -1,0 +1,20 @@
+{
+  "name": "React-101",
+  "version": "0.0.1",
+  "license": "",
+  "angular-cli": {},
+  "scripts": {
+    "start": "http-server -p4200",
+    "watch": "reload -b -p 4200",
+    "compile": "pug index.pug"
+  },
+  "private": true,
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "reload": "^1.1.2"
+  },
+  "dependencies": {
+    "jstransformer-markdown-it": "^2.1.0"
+  }
+}
