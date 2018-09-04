@@ -1,0 +1,12 @@
+.todo-list {
+    font-family: sans-serif;
+}
+.todo-list li {
+    display: block;
+    background: #f2f2f2;
+    padding: 10px 15px;
+    margin: 3px 0;
+}
+.todo-list li.empty {
+    font-style: oblique;
+}
