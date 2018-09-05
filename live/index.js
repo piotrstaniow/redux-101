@@ -1,6 +1,5 @@
 class Store {
-
+    constructor() {}
 }
 
 const store = new Store;
-console.log(store);
