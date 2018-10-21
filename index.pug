@@ -1,28 +1,12 @@
 doctype html 
 html
   head
-    title Redux 101 - Introduction to Redux
+    title Redux 101 - Introduction to Redux Architecture
     meta(charset='utf-8')
     meta(name='author', content='Piotr Staniów')
     meta(name='description', content='Redux 101')
     meta(name="viewport",content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui")
     link(rel="icon" href="common/img/favicon.ico")
-  
-    link(href='reveal.js-3.3.0/css/reveal.css', rel='stylesheet')
-    link(href='reveal.js-3.3.0/css/theme/black.css', rel='stylesheet')
-    link(href='common/css/common.css', rel='stylesheet')
-    <!-- Theme used for syntax highlighting of code -->
-    link(href='reveal.js-3.3.0/lib/css/zenburn.css', rel='stylesheet')
-    //- Printing and PDF exports -->
-    script.
-      var link = document.createElement( 'link' );
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js-3.3.0/css/print/pdf.css' : 'reveal.js-3.3.0/css/print/paper.css';
-      document.getElementsByTagName( 'head' )[0].appendChild( link );
-    link(href='style.css', rel='stylesheet')
-    
-   
  
 -var counter = 0
   body
@@ -30,34 +14,12 @@ html
       .slides        
         include ./slides/title.pug
         include ./slides/agenda.pug
-        include ./slides/quiz.pug
-        include ./slides/redux/01-state.pug
+        include ./slides/redux/01-redux.pug
         include ./slides/redux/02-redux.pug
-        include ./slides/redux/03-principles.pug
-        include ./slides/redux/04-store.pug
-        include ./slides/redux/05-outro.pug
+        include ./slides/redux/03-state.pug
+        include ./slides/redux/04-state.pug
+        include ./slides/redux/05-principles.pug
+        include ./slides/redux/06-store.pug
+        include ./slides/redux/07-outro.pug
         include ./slides/end.pug
-     
-    script(src='reveal.js-3.3.0/lib/js/head.min.js')
-    script(src='reveal.js-3.3.0/js/reveal.js')
-
-    script.
-      Reveal.initialize({
-       // controls: true,
-      //  progress: true,
-        history: true,
-      //  center: true,
-      //  rollingLinks: true,
-     //   transition: "convex",
-        //- width: "90%",
-        //- height: 1.0,
-        dependencies: [
-          // Syntax highlight for <code> elements
-            {src: 'reveal.js-3.3.0/plugin/markdown/marked.js'},
-            {src: 'reveal.js-3.3.0/plugin/markdown/markdown.js'},
-            {src: 'reveal.js-3.3.0/plugin/notes/notes.js', async: true},
-            { src: 'reveal.js-3.3.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },         
-        ]
-      });
-     
-
+    script(src="main.bundle.js")

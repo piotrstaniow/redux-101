@@ -1,20 +1,32 @@
 {
-  "name": "React-101",
-  "version": "0.0.1",
+  "name": "redux-101",
+  "version": "1.0.0",
   "license": "",
-  "angular-cli": {},
+  "main": "index.js",
   "scripts": {
-    "start": "http-server -p4200",
-    "watch": "reload -b -p 4200",
-    "compile": "pug index.pug"
+    "start": "webpack-dev-server --mode=development --watch",
+    "build": "webpack --mode=production",
+    "clean": "rimraf dist"
   },
   "private": true,
   "devDependencies": {
-    "http-server": "^0.9.0",
-    "pug-cli": "^1.0.0-alpha6",
-    "reload": "^1.1.2"
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "http-server": "0.11.1",
+    "pug-html-loader": "1.1.5",
+    "rimraf": "2.6.2",
+    "style-loader": "^0.23.1",
+    "webpack": "4.25.1",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
   },
   "dependencies": {
-    "jstransformer-markdown-it": "^2.1.0"
+    "head.js": "0.0.1",
+    "headjs": "1.0.3",
+    "jstransformer-markdown-it": "2.1.0",
+    "reveal.js": "3.7.0"
   }
 }
