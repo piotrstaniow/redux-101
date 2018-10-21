@@ -120,3 +120,7 @@ div.agenda h4 {
 a, a:hover, a:visited {
   color: orange !important;
 }
+
+.text-left {
+  text-align: left;
+}
