@@ -1,0 +1,13 @@
+-var transition= "slide"
+block vars
+
+
+- var pageId = (counter++) + "-" + title
+section(id= pageId, data-transition=transition)
+  body
+    h1.text-left
+      block title
+    h3.text-left
+      block subtitle
+    h5.text-left
+      block author

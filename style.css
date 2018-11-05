@@ -1,14 +1,17 @@
-.reveal section img.logo{
-  box-shadow: none;
-  border-color: #222;
+.reveal h1 {
+  font-size: 2.0em;
 }
 
-.reveal section table{
-   font-size: 32px;
+.reveal h2 {
+  font-size: 1.6em;
 }
 
-.reveal section li.nobullet{
-   list-style:none;
+.reveal h3 {
+  font-size: 1.35em;
+}
+
+.reveal h4 {
+  font-size: 1em;
 }
 
 .reveal section img {
@@ -18,12 +21,8 @@
   background-color: #222;
 }
 
-.reveal p.small{
+.reveal p.small {
   font-size: 0.7em;
-}
-
-.reveal .credits{
-  font-size: 0.6em;
 }
 
 .reveal pre {
@@ -34,56 +33,10 @@
   font-size: 0.75em;
 }
 
-.reveal .bgImages img{
+.reveal .bgImages img {
      width: 22%;
      margin: 5px;
      height: 120px;
-}
-
-.reveal  div.overlay{
-    position: absolute;
-    top: 150px;
-    left: 100px;
-    width: 750px;
-    height: 430px;
-    background-color:rgba(34, 34, 34, 0.90);
-    text-align: left;
-    padding: 20px;
-
-}
-.reveal  div.overlay a, .reveal  div.overlay a:hover, .reveal  div.overlay a:visited{
-  color: white;
-  font-size: 38px;
-}
-
-.reveal p.warn{
- color:darkorange;
-}
-.reveal .red{
- color:red;
-}
-.reveal .green{
- color:green;
-}
-
-.reveal .slides {
-  text-align: left;
-}
-
-.reveal .slides h2 {
-  text-align: center;
-}
-
-.no-bullet {
-  list-style-type: none;
-}
-
-.reveal .ml30 {
-  margin-left:30px;
-} 
-
-.reveal .quote{
-    font-size: 40%;
 }
 
 code.small {
@@ -91,34 +44,8 @@ code.small {
     padding: 0.1rem;
 }
 
-ul.small {
-  font-size: 2rem;
-}
-
-section img.cover {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-body {
-  background-color: #3B214C;
-}
-
-div.agenda h4 {
-  margin-top: 20px;
-  margin-bottom: 5px;
-  width: 100%;
-  border-bottom: 3px solid white;
-}
-
 .reveal .slide-background {
   background-size: contain !important;
-}
-a, a:hover, a:visited {
-  color: orange !important;
 }
 
 .text-left {
