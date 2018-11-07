@@ -15,6 +15,13 @@ const css = {
     ]
 };
 
+const fonts = {
+    test: /\.(woff|woff2|eot|ttf|otf)$/,
+    use: [
+        'file-loader'
+    ]
+};
+
 module.exports = {
     entry: './index.js',
     devServer: {
@@ -25,7 +32,7 @@ module.exports = {
         filename: '[name].bundle.js',
     },
     module: {
-        rules: [pug, css],
+        rules: [pug, css, fonts],
     },
     plugins: [
         new HtmlWebpackPlugin({

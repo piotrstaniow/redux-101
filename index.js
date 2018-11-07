@@ -1,7 +1,7 @@
 import 'headjs/dist/1.0.0/head';
 import Reveal from 'reveal.js';
 import 'reveal.js/css/reveal.css';
-import 'reveal.js/css/theme/blood.css';
+import 'reveal.js/css/theme/black.css';
 import 'reveal.js/lib/css/zenburn.css';
 import './style.css';
 

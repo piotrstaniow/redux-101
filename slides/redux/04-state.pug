@@ -1,0 +1,16 @@
+extends ../layout.pug 
+
+block vars
+  - var title = 'redux-app-state'
+
+block title
+  | What's an application state?
+block content
+  p
+    | All the data an application needs at any given moment
+  ul
+    li Servers' responses data
+    li User input
+    li Sensors' feedback (e.g. temperature, GPS location)
+    li Persistent data (e.g. tokens)
+    li Displayable information
